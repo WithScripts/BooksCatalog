@@ -1,0 +1,12 @@
+E:\Test\BooksCatalog\LoggerService\bin\Debug\netcoreapp3.1\Contracts.dll
+E:\Test\BooksCatalog\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csprojAssemblyReference.cache
+E:\Test\BooksCatalog\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfoInputs.cache
+E:\Test\BooksCatalog\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.AssemblyInfo.cs
+E:\Test\BooksCatalog\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.deps.json
+E:\Test\BooksCatalog\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.dll
+E:\Test\BooksCatalog\LoggerService\bin\Debug\netcoreapp3.1\LoggerService.pdb
+E:\Test\BooksCatalog\LoggerService\bin\Debug\netcoreapp3.1\Contracts.pdb
+E:\Test\BooksCatalog\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CoreCompileInputs.cache
+E:\Test\BooksCatalog\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.csproj.CopyComplete
+E:\Test\BooksCatalog\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.dll
+E:\Test\BooksCatalog\LoggerService\obj\Debug\netcoreapp3.1\LoggerService.pdb
