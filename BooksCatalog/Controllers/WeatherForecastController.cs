@@ -12,18 +12,16 @@ namespace BooksCatalog.Controllers
     [Route("[controller]")]
     public class WeatherForecastController : ControllerBase
     {
-        private ILoggerManager _logger;
-        public WeatherForecastController(ILoggerManager logger)
+        private readonly IRepositoryManager _repository;
+        public WeatherForecastController(IRepositoryManager repository)
         {
-            _logger = logger;
+            _repository = repository;
         }
         [HttpGet]
-        public IEnumerable<string> Get()
+        public ActionResult<IEnumerable<string>> Get()
         {
-            _logger.LogInfo("Here is info message from our values controller.");
-            _logger.LogDebug("Here is debug message from our values controller.");
-            _logger.LogWarn("Here is warn message from our values controller.");
-            _logger.LogError("Here is an error message from our values controller.");
+            _repository.Book.ToString();
+            _repository.Author.ToString();
             return new string[] { "value1", "value2" };
         }
     }

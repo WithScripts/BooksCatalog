@@ -1,0 +1,10 @@
+E:\Test\BooksCatalog\Entities\bin\Debug\netcoreapp3.1\Entities.deps.json
+E:\Test\BooksCatalog\Entities\bin\Debug\netcoreapp3.1\Entities.dll
+E:\Test\BooksCatalog\Entities\bin\Debug\netcoreapp3.1\Entities.pdb
+E:\Test\BooksCatalog\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfoInputs.cache
+E:\Test\BooksCatalog\Entities\obj\Debug\netcoreapp3.1\Entities.AssemblyInfo.cs
+E:\Test\BooksCatalog\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.CoreCompileInputs.cache
+E:\Test\BooksCatalog\Entities\obj\Debug\netcoreapp3.1\Entities.dll
+E:\Test\BooksCatalog\Entities\obj\Debug\netcoreapp3.1\Entities.pdb
+E:\Test\BooksCatalog\Entities\obj\Debug\netcoreapp3.1\Entities.csproj.AssemblyReference.cache
+E:\Test\BooksCatalog\Entities\obj\Debug\netcoreapp3.1\Entities.GeneratedMSBuildEditorConfig.editorconfig

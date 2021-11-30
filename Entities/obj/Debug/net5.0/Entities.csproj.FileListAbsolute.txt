@@ -1,0 +1,11 @@
+E:\Test\BooksCatalog\Entities\bin\Debug\net5.0\Entities.deps.json
+E:\Test\BooksCatalog\Entities\bin\Debug\net5.0\Entities.dll
+E:\Test\BooksCatalog\Entities\bin\Debug\net5.0\ref\Entities.dll
+E:\Test\BooksCatalog\Entities\bin\Debug\net5.0\Entities.pdb
+E:\Test\BooksCatalog\Entities\obj\Debug\net5.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Test\BooksCatalog\Entities\obj\Debug\net5.0\Entities.AssemblyInfoInputs.cache
+E:\Test\BooksCatalog\Entities\obj\Debug\net5.0\Entities.AssemblyInfo.cs
+E:\Test\BooksCatalog\Entities\obj\Debug\net5.0\Entities.csproj.CoreCompileInputs.cache
+E:\Test\BooksCatalog\Entities\obj\Debug\net5.0\Entities.dll
+E:\Test\BooksCatalog\Entities\obj\Debug\net5.0\ref\Entities.dll
+E:\Test\BooksCatalog\Entities\obj\Debug\net5.0\Entities.pdb

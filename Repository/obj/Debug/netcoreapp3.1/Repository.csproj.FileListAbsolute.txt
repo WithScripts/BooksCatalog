@@ -1,0 +1,17 @@
+E:\Test\BooksCatalog\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+E:\Test\BooksCatalog\Repository\obj\Debug\netcoreapp3.1\Repository.AssemblyInfo.cs
+E:\Test\BooksCatalog\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+E:\Test\BooksCatalog\Repository\bin\Debug\netcoreapp3.1\Repository.deps.json
+E:\Test\BooksCatalog\Repository\bin\Debug\netcoreapp3.1\Repository.dll
+E:\Test\BooksCatalog\Repository\bin\Debug\netcoreapp3.1\Repository.pdb
+E:\Test\BooksCatalog\Repository\bin\Debug\netcoreapp3.1\Contracts.dll
+E:\Test\BooksCatalog\Repository\bin\Debug\netcoreapp3.1\Entities.dll
+E:\Test\BooksCatalog\Repository\bin\Debug\netcoreapp3.1\LoggerService.dll
+E:\Test\BooksCatalog\Repository\bin\Debug\netcoreapp3.1\LoggerService.pdb
+E:\Test\BooksCatalog\Repository\bin\Debug\netcoreapp3.1\Contracts.pdb
+E:\Test\BooksCatalog\Repository\bin\Debug\netcoreapp3.1\Entities.pdb
+E:\Test\BooksCatalog\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.CopyComplete
+E:\Test\BooksCatalog\Repository\obj\Debug\netcoreapp3.1\Repository.dll
+E:\Test\BooksCatalog\Repository\obj\Debug\netcoreapp3.1\Repository.pdb
+E:\Test\BooksCatalog\Repository\obj\Debug\netcoreapp3.1\Repository.csproj.AssemblyReference.cache
+E:\Test\BooksCatalog\Repository\obj\Debug\netcoreapp3.1\Repository.GeneratedMSBuildEditorConfig.editorconfig

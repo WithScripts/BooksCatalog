@@ -1,0 +1,15 @@
+E:\Test\BooksCatalog\Contracts\bin\Debug\net5.0\Contracts.deps.json
+E:\Test\BooksCatalog\Contracts\bin\Debug\net5.0\Contracts.dll
+E:\Test\BooksCatalog\Contracts\bin\Debug\net5.0\ref\Contracts.dll
+E:\Test\BooksCatalog\Contracts\bin\Debug\net5.0\Contracts.pdb
+E:\Test\BooksCatalog\Contracts\bin\Debug\net5.0\Entities.dll
+E:\Test\BooksCatalog\Contracts\bin\Debug\net5.0\Entities.pdb
+E:\Test\BooksCatalog\Contracts\obj\Debug\net5.0\Contracts.csproj.AssemblyReference.cache
+E:\Test\BooksCatalog\Contracts\obj\Debug\net5.0\Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Test\BooksCatalog\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfoInputs.cache
+E:\Test\BooksCatalog\Contracts\obj\Debug\net5.0\Contracts.AssemblyInfo.cs
+E:\Test\BooksCatalog\Contracts\obj\Debug\net5.0\Contracts.csproj.CoreCompileInputs.cache
+E:\Test\BooksCatalog\Contracts\obj\Debug\net5.0\Contracts.csproj.CopyComplete
+E:\Test\BooksCatalog\Contracts\obj\Debug\net5.0\Contracts.dll
+E:\Test\BooksCatalog\Contracts\obj\Debug\net5.0\ref\Contracts.dll
+E:\Test\BooksCatalog\Contracts\obj\Debug\net5.0\Contracts.pdb

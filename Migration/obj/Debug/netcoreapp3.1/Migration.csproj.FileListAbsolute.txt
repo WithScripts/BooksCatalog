@@ -1,0 +1,9 @@
+E:\Test\BooksCatalog\Migration\bin\Debug\netcoreapp3.1\Migration.deps.json
+E:\Test\BooksCatalog\Migration\bin\Debug\netcoreapp3.1\Migration.dll
+E:\Test\BooksCatalog\Migration\bin\Debug\netcoreapp3.1\Migration.pdb
+E:\Test\BooksCatalog\Migration\obj\Debug\netcoreapp3.1\Migration.csprojAssemblyReference.cache
+E:\Test\BooksCatalog\Migration\obj\Debug\netcoreapp3.1\Migration.AssemblyInfoInputs.cache
+E:\Test\BooksCatalog\Migration\obj\Debug\netcoreapp3.1\Migration.AssemblyInfo.cs
+E:\Test\BooksCatalog\Migration\obj\Debug\netcoreapp3.1\Migration.csproj.CoreCompileInputs.cache
+E:\Test\BooksCatalog\Migration\obj\Debug\netcoreapp3.1\Migration.dll
+E:\Test\BooksCatalog\Migration\obj\Debug\netcoreapp3.1\Migration.pdb

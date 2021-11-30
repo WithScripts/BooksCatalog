@@ -1,9 +1,13 @@
 E:\Test\BooksCatalog\Contracts\bin\Debug\netcoreapp3.1\Contracts.deps.json
 E:\Test\BooksCatalog\Contracts\bin\Debug\netcoreapp3.1\Contracts.dll
 E:\Test\BooksCatalog\Contracts\bin\Debug\netcoreapp3.1\Contracts.pdb
-E:\Test\BooksCatalog\Contracts\obj\Debug\netcoreapp3.1\Contracts.csprojAssemblyReference.cache
 E:\Test\BooksCatalog\Contracts\obj\Debug\netcoreapp3.1\Contracts.AssemblyInfoInputs.cache
 E:\Test\BooksCatalog\Contracts\obj\Debug\netcoreapp3.1\Contracts.AssemblyInfo.cs
 E:\Test\BooksCatalog\Contracts\obj\Debug\netcoreapp3.1\Contracts.csproj.CoreCompileInputs.cache
 E:\Test\BooksCatalog\Contracts\obj\Debug\netcoreapp3.1\Contracts.dll
 E:\Test\BooksCatalog\Contracts\obj\Debug\netcoreapp3.1\Contracts.pdb
+E:\Test\BooksCatalog\Contracts\bin\Debug\netcoreapp3.1\Entities.dll
+E:\Test\BooksCatalog\Contracts\bin\Debug\netcoreapp3.1\Entities.pdb
+E:\Test\BooksCatalog\Contracts\obj\Debug\netcoreapp3.1\Contracts.csproj.CopyComplete
+E:\Test\BooksCatalog\Contracts\obj\Debug\netcoreapp3.1\Contracts.csproj.AssemblyReference.cache
+E:\Test\BooksCatalog\Contracts\obj\Debug\netcoreapp3.1\Contracts.GeneratedMSBuildEditorConfig.editorconfig
