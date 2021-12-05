@@ -17,89 +17,43 @@ namespace BooksCatalog.Controllers
     public class BooksController : ControllerBase
     {
         private readonly IRepositoryManager _repository;
-        private readonly ILoggerManager _logger;
         private readonly IMapper _mapper;
         private readonly IEnumerable<Book> _books;
 
-        public BooksController(IRepositoryManager repository, ILoggerManager logger, IMapper mapper)
+        public BooksController(IRepositoryManager repository, IMapper mapper)
         {
             _repository = repository;
-            _logger = logger;
             _mapper = mapper;
             _books = _repository.Book.GetBooks();
-        }
-        [HttpGet(Name = "GetBooks")]
-        public IActionResult GetBooks()
-        {
-            try
-            {
-                return Ok(_books);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Something went wrong in the {nameof(GetBooks)} action {ex}");
-                return StatusCode(500, "Internal server error");
-            }
         }
         [HttpPost]
         public IActionResult CreateBook([FromBody] BookForCreationDto book)
         {
-            if (book == null)
-            {
-                _logger.LogError("Is null");
-                return BadRequest("Null");
-            }
+            if(book == null) return BadRequest("field \"Name\" or \"Year\" are empty");
             Book bookEntity = _mapper.Map<Book>(book);
-            IList<Author> authors = _repository.Author.GetAuthors();
-            Author author = authors.FirstOrDefault(c => c.Id == book.AuthorId);
-            bookEntity.Authors.Add(author);
+            Author author = _repository.Author.GetAuthors().FirstOrDefault(c => c.Id == book.AuthorId);
+            if (author != null) bookEntity.Authors.Add(author);
             _repository.Book.CreateBook(bookEntity);
             _repository.Save();
-            string authros = "";
-            foreach (var obj in bookEntity.Authors)
-            {
-                authros += $"Id: {obj.Id}, Surname: {obj.Surname}";
-            }
-            var bookDto = _mapper.Map<BookForShowDto>(bookEntity);
-            bookDto.Authros = authros;
-            return CreatedAtRoute("BookById", new { id = bookDto.Id }, bookDto);
+            return CreatedAtRoute("BookById", new { id = bookEntity.Id }, bookEntity);
         }
         [HttpGet("{id}", Name = "BookById")]
         public IActionResult GetBookById(int id)
         {
-            try
-            {
-                Book book = _books.First(b => b.Id == id);
-                string authros = "";
-                foreach(var obj in book.Authors)
-                {
-                    authros += $"Id: {obj.Id}, Surname: {obj.Surname}";
-                }
-                var bookDto = _mapper.Map<BookForShowDto>(book);
-                bookDto.Authros = authros;
-                return Ok(bookDto);
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Something went wrong in the {nameof(GetBookById)} action {ex}");
-                return StatusCode(500, "Internal server error");
-            }
+            Book book = _books.FirstOrDefault(b => b.Id == id);
+            if (book == null) return BadRequest("Book not exist");
+            BookDto bookDto = _mapper.Map<BookDto>(book);
+            bookDto.Authors = _repository.Book.GetAuthorsInString(book);
+            return Ok(bookDto);
         }
         [HttpDelete("{id}", Name = "DeleteById")]
         public IActionResult DeleteBookById(int id)
         {
-            try
-            {
-                Book book = _books.First(c => c.Id == id);
-                _repository.Book.DeleteBook(book);
-                _repository.Save();
-                return Ok("Book deleted");
-            }
-            catch (Exception ex)
-            {
-                _logger.LogError($"Something went wrong in the {nameof(DeleteBookById)} action {ex}");
-                return StatusCode(500, "Internal server error");
-            }
+            Book book = _books.FirstOrDefault(c => c.Id == id);
+            if (book == null) return BadRequest("Book not exist");
+            _repository.Book.DeleteBook(book);
+            _repository.Save();
+            return Ok("Book deleted");
         }
     }
 }

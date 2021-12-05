@@ -1,5 +1,4 @@
-﻿using Entities.Configuration;
-using Entities.Models;
+﻿using Entities.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
@@ -15,14 +14,13 @@ namespace Entities
         public RepositoryContext(DbContextOptions options)
             : base(options)
         {
-           //var books = Books.Include(a => a.Authors).ToList();
         }   
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             modelBuilder.Entity<Book>()
-              .HasMany<Author>(b => b.Authors)
-              .WithMany(a => a.Books)
-              .UsingEntity(x => x.ToTable("BookAuthor"));
+                .HasMany<Author>(b => b.Authors)
+                .WithMany(a => a.Books)
+                .UsingEntity(x => x.ToTable("BookAuthor"));
             modelBuilder.Entity<Book>().HasKey(b => b.Id);
             modelBuilder.Entity<Book>()
                 .Property(b => b.Id)
@@ -42,8 +40,6 @@ namespace Entities
             modelBuilder.Entity<Author>()
                 .Property(a => a.Surname)
                 .IsRequired();
-            //modelBuilder.ApplyConfiguration(new AuthorConfiguration());
-            //modelBuilder.ApplyConfiguration(new BookConfiguration());
         }
     }
 }

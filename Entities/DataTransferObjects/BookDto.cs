@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Entities.DataTransferObjects
 {
-    public class BookForShowDto
+    public class BookDto
     {
         public int Id { get; set; }
         public string Name { get; set; }
         public int Year { get; set; }
-        public string Authros { get; set; }
+        public string Authors { get; set; }
     }
 }

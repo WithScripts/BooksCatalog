@@ -1,4 +1,3 @@
-E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\nlog.config
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\appsettings.Development.json
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\appsettings.json
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\BooksCatalog.exe
@@ -33,8 +32,6 @@ E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Microsoft.IdentityMode
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
-E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\NLog.dll
-E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\NLog.Extensions.Logging.dll
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
@@ -59,9 +56,7 @@ E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\runtimes\win\lib\netst
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Contracts.dll
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Entities.dll
-E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\LoggerService.dll
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Repository.dll
-E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\LoggerService.pdb
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Repository.pdb
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Contracts.pdb
 E:\Test\BooksCatalog\BooksCatalog\bin\Debug\netcoreapp3.1\Entities.pdb

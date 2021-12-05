@@ -15,7 +15,8 @@ namespace BooksCatalog
             CreateMap<Author, AuthorDto>();
             CreateMap<BookForCreationDto, Book>();
             CreateMap<AuthorForCreationDto, Author>();
-            CreateMap<Book, BookForShowDto>();
+            CreateMap<Book, BookDto>();
+            CreateMap<Book, AuthorBooksDto>();
         }
     }
 }
